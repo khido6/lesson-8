@@ -32,5 +32,11 @@ nav,nav ul,nav li{
     width: 40px;
     height: 5px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+.contact{
+    background-color: rgb(241, 243, 245);
+    color: rgb(0, 0, 2);
+    padding: 10px 30px;
+    margin-top: -10px;
 }
