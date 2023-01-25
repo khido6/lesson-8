@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
 header{
     background-color: rgb(5, 35, 117);
     max-width: 1600px;
@@ -12,7 +17,6 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    list-style: none;
     text-decoration: none;
     padding: 0px 100px;
 }
@@ -40,3 +44,29 @@ nav,nav ul,nav li{
     padding: 10px 30px;
     margin-top: -10px;
 }
+section{
+    margin: 0px 100px;
+}
+.bullets{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sp{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(113, 113, 155);
+    display: flex;
+    border-radius: 50%;
+}
+.span{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(120, 132, 143);
+}
+.pirveli{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
