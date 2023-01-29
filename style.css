@@ -53,12 +53,16 @@ section{
     margin-top: 200px;
     justify-content: space-between;
 }
-.sp{
+.sp, .spsp{
     width: 8px;
     height: 8px;
-    background-color: rgb(113, 113, 155);
+    background-color: rgb(12, 12, 216);
     display: inline-block;
     border-radius: 50%;
+    opacity: 40%;
+}
+.spsp{
+    opacity: 1;
 }
 .span{
     width: 50px;
